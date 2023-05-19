@@ -1,0 +1,95 @@
+#content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    height: 100vh;
+}
+
+#divRoom{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: solid 2px salmon;
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 500px;
+    flex-direction: column;
+}    
+
+
+.room{
+  width: 100%;
+}
+
+.button{    
+    margin: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: sienna;
+    border: solid 1px salmon;
+    width: 70px;
+    height: 50px;
+}
+
+#divMessage{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+#message{
+  width: 90%;
+  padding: 10px;
+}
+
+#sendMessage{
+  
+}
+
+#roomDiv{
+    display: flex;
+}
+
+#pantalla{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 4;
+    background-color: rgb(10, 10, 10, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonPantalla{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: navy;
+}
+
+#textPantalla{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: navy;
+}
+
+#divPantalla{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 2px darkslategrey;
+    margin: 10px;
+    padding: 10px;
+}

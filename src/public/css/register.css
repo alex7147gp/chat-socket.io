@@ -1,0 +1,129 @@
+/* register.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  position: absolute;
+  z-index: 3;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Contenedor principal */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Tarjeta del formulario */
+.card {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+}
+
+/* Grupos de entrada */
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input-user input-password {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+/* Contenedor de botones */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Botón primario */
+.btn.primary {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Estilos adicionales */
+.btn.primary:hover {
+  background-color: #555;
+}
+
+.btn.primary:active {
+  background-color: #111;
+}
+
+#pantalla{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 0;
+    background-color: rgb(10, 10, 10, .4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonPantalla{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: slategrey;
+    width: 100px;
+}
+
+#textPantalla{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: larger;
+  background-color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#divPantalla{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
